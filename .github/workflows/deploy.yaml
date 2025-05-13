@@ -21,7 +21,7 @@ jobs:
         with:
           token_format: 'access_token'
           workload_identity_provider: 'projects/188263521940/locations/global/workloadIdentityPools/new-github-pool2/providers/github-provider1'
-          service_account: 'new-github-actions@YOUR_PROJECT_ID.iam.gserviceaccount.com'
+          service_account: 'new-github-actions@saikiran9640.iam.gserviceaccount.com'
 
       - name: Set up gcloud
         uses: google-github-actions/setup-gcloud@v2
